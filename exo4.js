@@ -41,7 +41,7 @@ const convertir = function(e){
     e.preventDefault();
     rst.innerHTML=" La conversion (en hh:min:sec) est => " + tb[0] + " : " + tb[1] + " : "+ tb[2];
 };
- // 00- CODE DE DECLENCHEMENT DE L INTERACTIVITE USER
+ // 00- CODE DE DECLENCHEMENT DE L INTERACTIVITE UTILISATEUR
 foc.addEventListener("mouseover", focused);
 validation.addEventListener("click", convertir);
 
